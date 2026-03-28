@@ -17,7 +17,7 @@ export const HeroImageWithTextAndCTA = () => {
         {/* ILOVENDIS */}
           <div className="mb-4 animate-fade-in">
             <img 
-              src="/src/assets/landing/iheartndis.png" 
+              src="/iheartndis.png" 
               alt="I Love NDIS Logo" 
               className="h-16 md:h-20 w-auto object-contain drop-shadow-md brightness-100"
             />
