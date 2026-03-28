@@ -12,12 +12,12 @@ const SERVICES_DATA = [
 
 export const DisplayHeaderAndCards = () => {
   return (
-    <section className="py-24 bg-gray-50">
+    <section className="py-24 bg-slate-50 border-t border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-primary">Our Core Services</h2>
-          <p className="text-lg text-gray-600">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">Our Core Services</h2>
+          <p className="text-lg text-slate-700 font-medium">
             Simple, reliable support that fits seamlessly into your NDIS plan.
           </p>
         </div>
