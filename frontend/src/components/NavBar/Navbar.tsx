@@ -1,6 +1,8 @@
-import { Home, Info, Users, Earth, Contact, PersonStanding } from 'lucide-react';
+import { Home, Earth, Contact, PersonStanding } from 'lucide-react';
 import { NavLinkItem } from './NavIndividualItem';
 import { NavDropdown } from './NavbarDropDownItem';
+import { SERVICES_DATA } from '../../data/content';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
@@ -10,11 +12,13 @@ export const Navbar = () => {
           
           {/* Logo Section */}
           <div className="flex-shrink-0 flex items-center">
-            <img 
-              src="/kayacarelogo.png" 
-              alt="Kaya Care Co Logo" 
-              className="h-20 w-auto object-contain"
-            />
+            <Link to="/" className="hover:opacity-80 transition-opacity">
+              <img 
+                src="/kayacarelogo.png" 
+                alt="Kaya Care Co Logo" 
+                className="h-20 w-auto object-contain"
+              />
+            </Link>
           </div>
 
           {/* Navigation Section */}
@@ -23,8 +27,13 @@ export const Navbar = () => {
             <NavLinkItem to="/about" label="About Us" Icon={Earth} />
             
             <NavDropdown label="Services">
-              <NavLinkItem to="/community" label="Community" Icon={Info} />
-              <NavLinkItem to="/therapy" label="Therapy" Icon={Users} />
+              {SERVICES_DATA.map((service) => (
+                <NavLinkItem 
+                  key={service.id} 
+                  to={`/services/${service.id}`} 
+                  label={service.title} 
+                />
+              ))}
             </NavDropdown>
 
             <NavLinkItem to="/contact" label="Contact Us" Icon={Contact} />
