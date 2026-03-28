@@ -20,13 +20,11 @@ export const NavLinkItem = ({ to, label, Icon, className = "" }: NavLinkItemProp
         ${className}
       `}
     >
-      {/* We use a render prop here to expose isActive to the children */}
       {({ isActive }) => (
         <>
           {Icon && (
             <Icon 
               size={20} 
-              // Now we pass a pure string based on the boolean!
               className={isActive ? "text-amber-700" : "text-slate-500"} 
             />
           )}
