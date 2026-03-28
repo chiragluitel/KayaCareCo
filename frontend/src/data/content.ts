@@ -100,14 +100,14 @@ export const SERVICES_COPY = {
       imagePlaceholder: "/services/servicesimage1.png"
     },
     {
-      id: "nursing-care",
-      title: "Nursing & High Intensity Care",
-      description: "Professional services delivered by Registered Nurses, including complex care such as PEG feeding, wound care, and continence assessments.",
+      id: "life-skills-training",
+      title: "Life Skills & Capacity Building",
+      description: "Empowering you to live more independently. We provide practical training in daily tasks, from budget management to using public transport safely.",
       detailedContent: [
-        "When your support needs go beyond standard personal care, our team of highly qualified Registered and Enrolled Nurses steps in. We deliver expert, high-intensity clinical care right in the comfort of your own home.",
-        "We specialize in managing complex health requirements safely and effectively. This includes comprehensive continence assessments, specialized wound and stoma care, catheter management, and PEG feeding.",
-        "By having clinical oversight from experienced RNs, we ensure that your care plan adapts to your changing health needs, reducing unnecessary hospital visits and maximizing your comfort."
+        "At Kaya Care Co, we believe that independence is the cornerstone of a fulfilling life. Our Life Skills Training is designed to help you develop the practical abilities and confidence needed to manage your daily affairs with less reliance on others.",
+        "Our supportive team works alongside you to master essential tasks such as meal planning and cooking, basic household budgeting, and navigating the local community. Whether it's learning to use a new smartphone to stay connected with family or understanding how to manage a medication schedule, we move at your pace.",
+        "By focusing on capacity building, we don't just complete tasks—we teach the skills behind them. This proactive approach helps reduce anxiety around daily living and fosters a sense of pride and autonomy in your own home and community."
       ],
-      imagePlaceholder: "/services/servicesimage1.png"
+      imagePlaceholder: "/services/life-skills.png"
     }
   ];
