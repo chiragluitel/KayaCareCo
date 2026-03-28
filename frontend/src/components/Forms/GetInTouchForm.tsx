@@ -17,7 +17,7 @@ export const GetInTouchForm = ({ serviceName }: { serviceName: string }) => {
     <div className="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-slate-200">
       <div className="mb-8">
         <h2 className="text-3xl font-extrabold text-slate-900">Get In Touch</h2>
-        <p className="text-slate-600 mt-2">Interested in our {serviceName} services? Leave your details below and we'll reach out to discuss how we can help.</p>
+        <p className="text-slate-600 mt-2">Interested in our services? Leave your details below and we'll reach out to discuss how we can help.</p>
       </div>
 
     {/* ERROR SECTION */}

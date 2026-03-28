@@ -5,6 +5,8 @@ import { ReferralPage } from '../Pages/ReferralPage';
 import { ServicePage } from '../Pages/ServicePage';
 import { ServiceDetailsPage } from '../components/Services/ServicesDetailed';
 import { AboutUsPage } from '../Pages/AboutUsPage';
+import { ContactUsPage } from '../Pages/ContactUsPage';
+import { NotFoundPage } from '../Pages/NotFoundPage';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +23,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'contact',
-        element: <div className="p-8">Contact Skeleton</div>, 
+        element: <ContactUsPage />, 
       },
       {
         path: 'referrals',
@@ -37,7 +39,7 @@ const router = createBrowserRouter([
       },
       {
         path: '*',
-        element: <div> 4040 </div>
+        element: <NotFoundPage />
       }
     ],
   },

@@ -44,7 +44,7 @@ export const ABOUT_BLOCKS = {
         "Building a trusted local support network"
       ],
       ctaText: "Join Our Community",
-      ctaLink: "/services",
+      ctaLink: "/contact",
       imageSrc: "/src/assets/aboutus/img1.png" 
     }
   };
