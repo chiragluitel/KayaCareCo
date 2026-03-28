@@ -108,6 +108,6 @@ export const SERVICES_COPY = {
         "Our supportive team works alongside you to master essential tasks such as meal planning and cooking, basic household budgeting, and navigating the local community. Whether it's learning to use a new smartphone to stay connected with family or understanding how to manage a medication schedule, we move at your pace.",
         "By focusing on capacity building, we don't just complete tasks—we teach the skills behind them. This proactive approach helps reduce anxiety around daily living and fosters a sense of pride and autonomy in your own home and community."
       ],
-      imagePlaceholder: "/services/life-skills.png"
+      imagePlaceholder: "/services/servicesimage1.png"
     }
   ];
