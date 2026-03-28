@@ -14,7 +14,7 @@ export const ImageOnLeftTextOnRight = () => {
         highlights={HIGHLIGHTS} 
         ctaText='Learn More About Us' 
         ctaLink='/about'
-        imageSrc='/src/assets/landing/kayacarehelpingclient.png'
+        imageSrc='/landing/kayacarehelpingclient.png'
     />
   );
 };

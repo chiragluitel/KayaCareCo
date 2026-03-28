@@ -9,7 +9,7 @@ export const ABOUT_BLOCKS = {
       ],
       ctaText: "See Our Services",
       ctaLink: "/services",
-      imageSrc: "/src/assets/aboutus/img1.png" 
+      imageSrc: "/aboutus/img1.png" 
     },
     difference: {
       header: "The Kaya Care Difference",
@@ -21,7 +21,7 @@ export const ABOUT_BLOCKS = {
       ],
       ctaText: "Make a Referral",
       ctaLink: "/referrals",
-      imageSrc: "/src/assets/aboutus/img1.png"
+      imageSrc: "/aboutus/img1.png"
     },
     values: {
       header: "Values That Drive Us",
@@ -33,7 +33,7 @@ export const ABOUT_BLOCKS = {
       ],
       ctaText: "Contact Our Team",
       ctaLink: "/contact",
-      imageSrc: "/src/assets/aboutus/img1.png"
+      imageSrc: "/aboutus/img1.png"
     },
     community: {
       header: "Building a Stronger Community",
@@ -45,7 +45,7 @@ export const ABOUT_BLOCKS = {
       ],
       ctaText: "Join Our Community",
       ctaLink: "/contact",
-      imageSrc: "/src/assets/aboutus/img1.png" 
+      imageSrc: "/aboutus/img1.png" 
     }
   };
 
@@ -57,8 +57,8 @@ export const ABOUT_BLOCKS = {
       phone: "0410 119 077",
       email: "info.kayacareco@gmail.com",
       experience: "With extensive experience in high-intensity nursing and complex care, Sheela leads our clinical team with a focus on dignity, precision, and compassionate support. Her background ensures that every participant receives medically sound, personalized care.",
-      photoSrc: "/src/assets/aboutus/sheela-profile.png",
-      cardSrc: "/src/assets/aboutus/sheela-card.png"     
+      photoSrc: "/aboutus/sheela-profile.png",
+      cardSrc: "/aboutus/sheela-card.png"     
     },
     {
       id: "karishma-luitel",
@@ -67,7 +67,7 @@ export const ABOUT_BLOCKS = {
       phone: "0420 449 377",
       email: "info.kayacareco@gmail.com",
       experience: "Karishma brings a wealth of expertise in NDIS operations, life skills development, and community participation. She is dedicated to building strong, trusting relationships with participants and their families, ensuring seamless service delivery.",
-      photoSrc: "/src/assets/aboutus/karishma-profile.png",
-      cardSrc: "/src/assets/aboutus/karishma-card.png"     
+      photoSrc: "/aboutus/karishma-profile.png",
+      cardSrc: "/aboutus/karishma-card.png"     
     }
   ];
