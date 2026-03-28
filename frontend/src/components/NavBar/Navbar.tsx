@@ -10,19 +10,27 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           
-          {/* Logo Section */}
-          <div className="flex-shrink-0 flex items-center">
+          {/* LOGO SECTION (Left Side) */}
+          <div className="flex-shrink-0 flex items-center gap-4 md:gap-6">
             <Link to="/" className="hover:opacity-80 transition-opacity">
               <img 
                 src="/kayacarelogo.png" 
                 alt="Kaya Care Co Logo" 
-                className="h-20 w-auto object-contain"
+                className="h-14 md:h-20 w-auto object-contain"
               />
             </Link>
+            
+            <div className="hidden sm:block border-l-2 border-slate-100 pl-4 md:pl-6">
+              <img 
+                src='src/assets/landing/iheartndis.png'
+                alt="I Love NDIS" 
+                className="h-10 md:h-14 w-auto object-contain"
+              />
+            </div>
           </div>
 
-          {/* Navigation Section */}
-          <nav className="flex items-center gap-2 md:gap-4">
+          {/* NAVIGATION SECTION (Right Side) */}
+          <nav className="flex items-center gap-1 md:gap-4 overflow-x-auto whitespace-nowrap no-scrollbar pb-1 sm:pb-0">
             <NavLinkItem to="/" label="Home" Icon={Home} />
             <NavLinkItem to="/about" label="About Us" Icon={Earth} />
             
