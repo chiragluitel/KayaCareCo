@@ -2,7 +2,7 @@ export const LANDING_SERVICES_DATA = [
     { id: 1, img: "/landing/card1.png", title: "Daily Living Support", desc: "Help with daily tasks so you can live comfortably at home." },
     { id: 2, img: "/landing/card2.png", title: "Community Access", desc: "Support to get out, meet people, and join local activities." },
     { id: 3, img: "/landing/card3.png", title: "Therapeutic Support", desc: "Work with professionals to improve your health and well-being." },
-    { id: 6, img: "/landing/card6.png", title: "Short Term Accommodation", desc: "A safe and relaxing place to stay for a short break." },
+    { id: 6, img: "/landing/card6.png", title: "Continence Management", desc: "Discreet and professional support designed to help you manage your health with confidence and dignity" },
     { id: 4, img: "/landing/card4.png", title: "Personal Care", desc: "Respectful help with your morning and evening routines." },
     { id: 5, img: "/landing/card5.png", title: "Life Skills Training", desc: "Learn new skills to become more independent every day." },
   ];
@@ -77,13 +77,13 @@ export const SERVICES_COPY = {
       imagePlaceholder: "/services/servicesimage1.png"
     },
     {
-      id: "sta-respite",
-      title: "Short Term Accommodation (STA) & Respite",
-      description: "Quick access to a safe, relaxing place for a short break. Provides respite for carers and helps build independence in a new routine.",
+      id: "continence-mgmt",
+      title: "Continence Management",
+      description: "Discreet and professional support designed to help you manage your health with confidence and dignity. Our team provides comprehensive assessments and personalized plans to improve your quality of life.",
       detailedContent: [
-        "Sometimes, a change of scenery is exactly what you need. Our Short Term Accommodation (STA) services offer a welcoming 'home away from home' where you can relax, recharge, and try new things.",
-        "STA is not just about a comfortable bed; it's an opportunity to build capacity. During your stay, our staff can help you develop new life skills, try new hobbies, and socialize in a fully supported, accessible environment.",
-        "This service also provides vital respite for your informal supports and family members, giving them peace of mind knowing you are receiving exceptional, 24/7 care."
+        "Our Continence Management services are delivered with the utmost respect for your privacy and dignity. We provide professional assessments led by qualified clinicians to understand your unique needs and develop a plan that helps you feel secure and comfortable in your daily life.",
+        "We assist with the selection and sourcing of appropriate aids and equipment, ensuring you have the right tools to maintain your independence. Our team also provides education for you and your carers on skin integrity, hygiene, and routine management to prevent complications.",
+        "Beyond clinical support, our goal is to empower you to engage fully in your community without worry. By providing personalized strategies and ongoing monitoring, we help you regain confidence and focus on the activities you love.",
       ],
       imagePlaceholder: "/services/servicesimage1.png"
     },
@@ -106,17 +106,6 @@ export const SERVICES_COPY = {
         "Empowerment is at the core of everything we do. Our Life Skills Development program is designed to give you the tools and confidence you need to live as independently as possible.",
         "We pair you with supportive mentors who work alongside you—not just doing things for you, but teaching you how to do them yourself. This might include learning to cook nutritious meals, budgeting and managing finances, or navigating public transport systems.",
         "We break down complex tasks into manageable steps, celebrating your progress and adjusting our support as your skills and confidence grow."
-      ],
-      imagePlaceholder: "/services/servicesimage1.png"
-    },
-    {
-      id: "support-coordination",
-      title: "Support Coordination",
-      description: "Helping you understand and maximize your NDIS plan. We link you to community supports and help you prepare for plan reviews.",
-      detailedContent: [
-        "The NDIS can be complex and overwhelming. Our dedicated Support Coordinators are here to take the stress out of managing your plan, ensuring you get the absolute most out of your funding.",
-        "We help you understand your budget, connect you with the right local providers, and establish service agreements. If you hit a roadblock or a point of crisis, we step in to advocate on your behalf.",
-        "As your plan comes to an end, we will help you gather the necessary reports and evidence to ensure you are thoroughly prepared for your plan review, aiming for the best possible outcomes for your future."
       ],
       imagePlaceholder: "/services/servicesimage1.png"
     }

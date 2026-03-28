@@ -9,16 +9,16 @@ interface DirectorProfileProps {
   photoSrc: string;
 }
 
-export const DirectorProfileCard = ({ name, role, experience, phone, email, photoSrc }: DirectorProfileProps) => {
+export const DirectorProfileCard = ({ name, role, experience, phone, email }: DirectorProfileProps) => {
   return (
     <article className="flex flex-col bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      <div className="aspect-square w-full bg-slate-200 relative overflow-hidden">
+      {/* <div className="aspect-square w-full bg-slate-200 relative overflow-hidden">
         <img 
           src={photoSrc} 
           alt={`${name} - ${role}`} 
           className="w-full h-full object-cover"
         />
-      </div>
+      </div> */}
       <div className="p-8 flex flex-col flex-grow">
         <h3 className="text-2xl font-extrabold text-slate-900">{name}</h3>
         <p className="text-amber-700 font-bold mb-4">{role}</p>

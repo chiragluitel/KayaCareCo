@@ -48,8 +48,8 @@ serve(async (req) => {
       'Authorization': `Bearer ${RESEND_API_KEY}`,
     },
     body: JSON.stringify({
-      from: 'Kaya Care Co <system@kayacareco.com.au>',
-      to: ['thechiragluitel@gmail.com'],
+      from: 'Kaya Care Co <admin@kayacareco.com.au>',
+      to: ['thechiragluitel@gmail.com', 'info.kayacareco@gmail.com'],
       subject: subject,
       html: htmlContent,
     }),
