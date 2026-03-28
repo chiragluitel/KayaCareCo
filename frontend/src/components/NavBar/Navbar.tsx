@@ -1,4 +1,4 @@
-import { Home, Info, Users, Earth, Contact } from 'lucide-react';
+import { Home, Info, Users, Earth, Contact, PersonStanding } from 'lucide-react';
 import { NavLinkItem } from './NavIndividualItem';
 import { NavDropdown } from './NavbarDropDownItem';
 
@@ -28,6 +28,7 @@ export const Navbar = () => {
             </NavDropdown>
 
             <NavLinkItem to="/contact" label="Contact Us" Icon={Contact} />
+            <NavLinkItem to="/referrals" label="Referral" Icon={PersonStanding} />
           </nav>
 
         </div>

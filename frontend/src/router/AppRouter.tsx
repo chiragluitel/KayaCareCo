@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { RootLayout } from '../components/layout/RootLayout';
 import { LandingPage } from '../Pages/LandingPage';
+import { ReferralPage } from '../Pages/ReferralPage';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,14 @@ const router = createBrowserRouter([
       {
         path: 'contact',
         element: <div className="p-8">Contact Skeleton</div>, 
+      },
+      {
+        path: 'referrals',
+        element: <ReferralPage />
+      },
+      {
+        path: '*',
+        element: <div> 404 </div>
       }
     ],
   },
