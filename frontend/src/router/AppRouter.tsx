@@ -4,6 +4,7 @@ import { LandingPage } from '../Pages/LandingPage';
 import { ReferralPage } from '../Pages/ReferralPage';
 import { ServicePage } from '../Pages/ServicePage';
 import { ServiceDetailsPage } from '../components/Services/ServicesDetailed';
+import { AboutUsPage } from '../Pages/AboutUsPage';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'about',
-        element: <div className="p-8">About Us Skeleton</div>, 
+        element: <AboutUsPage />, 
       },
       {
         path: 'contact',

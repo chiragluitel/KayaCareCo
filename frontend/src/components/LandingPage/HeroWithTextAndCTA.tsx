@@ -5,7 +5,7 @@ export const HeroImageWithTextAndCTA = () => {
     <section className="relative w-full min-h-[600px] flex items-center bg-slate-900">
       <div className="absolute inset-0 z-0 overflow-hidden bg-slate-900">
         <img 
-          src="/src/assets/heroimage.jpg" 
+          src="/src/assets/landing/heroimage.jpg" 
           alt="NDIS support worker helping a participant smile" 
           className="w-full h-full object-cover opacity-40 mix-blend-overlay"
         />

@@ -1,3 +1,13 @@
+export const LANDING_SERVICES_DATA = [
+    { id: 1, img: "/src/assets/landing/card1.png", title: "Daily Living Support", desc: "Help with daily tasks so you can live comfortably at home." },
+    { id: 2, img: "/src/assets/landing/card2.png", title: "Community Access", desc: "Support to get out, meet people, and join local activities." },
+    { id: 3, img: "/src/assets/landing/card3.png", title: "Therapeutic Support", desc: "Work with professionals to improve your health and well-being." },
+    { id: 6, img: "/src/assets/landing/card6.png", title: "Short Term Accommodation", desc: "A safe and relaxing place to stay for a short break." },
+    { id: 4, img: "/src/assets/landing/card4.png", title: "Personal Care", desc: "Respectful help with your morning and evening routines." },
+    { id: 5, img: "/src/assets/landing/card5.png", title: "Life Skills Training", desc: "Learn new skills to become more independent every day." },
+  ];
+  
+
 export const CONTACT_INFO = {
     businessName: "Kaya Care Co.",
     email: "info.kayacareco@gmail.com",
@@ -42,7 +52,7 @@ export const SERVICES_COPY = {
         "Our experienced and compassionate support workers can assist with morning and evening routines, personal hygiene (showering, grooming, and dressing), and safe mobility transfers. We tailor our approach to your specific preferences, ensuring you feel respected and heard at all times.",
         "Beyond personal care, we can also accompany you to medical appointments, community events, or social outings, ensuring you have the reliable support you need to stay active and engaged."
       ],
-      imagePlaceholder: "/src/assets/servicesimage1.png" 
+      imagePlaceholder: "/src/assets/services/servicesimage1.png" 
     },
     {
       id: "household-tasks",
@@ -53,7 +63,7 @@ export const SERVICES_COPY = {
         "Our team provides reliable, thorough assistance with domestic duties including vacuuming, mopping, bathroom cleaning, laundry, and ironing. We can also help with meal preparation, ensuring you have nutritious and delicious food ready when you need it.",
         "Need a hand outside? We also offer basic yard maintenance to keep your outdoor spaces safe and accessible."
       ],
-      imagePlaceholder: "/src/assets/servicesimage1.png"
+      imagePlaceholder: "/src/assets/services/servicesimage1.png"
     },
     {
       id: "mental-health",
@@ -64,7 +74,7 @@ export const SERVICES_COPY = {
         "We work collaboratively with you, your family, and your clinical team to establish positive daily routines, build emotional resilience, and actively participate in your community. Whether you need support managing anxiety in public spaces or help organizing your week, we are here.",
         "Our team is specifically trained to support individuals living with conditions such as Schizophrenia, PTSD, Depression, and early-onset Dementia, providing a stable, trusting environment."
       ],
-      imagePlaceholder: "/src/assets/servicesimage1.png"
+      imagePlaceholder: "/src/assets/services/servicesimage1.png"
     },
     {
       id: "sta-respite",
@@ -75,7 +85,7 @@ export const SERVICES_COPY = {
         "STA is not just about a comfortable bed; it's an opportunity to build capacity. During your stay, our staff can help you develop new life skills, try new hobbies, and socialize in a fully supported, accessible environment.",
         "This service also provides vital respite for your informal supports and family members, giving them peace of mind knowing you are receiving exceptional, 24/7 care."
       ],
-      imagePlaceholder: "/src/assets/servicesimage1.png"
+      imagePlaceholder: "/src/assets/services/servicesimage1.png"
     },
     {
       id: "nursing-care",
@@ -86,7 +96,7 @@ export const SERVICES_COPY = {
         "We specialize in managing complex health requirements safely and effectively. This includes comprehensive continence assessments, specialized wound and stoma care, catheter management, and PEG feeding.",
         "By having clinical oversight from experienced RNs, we ensure that your care plan adapts to your changing health needs, reducing unnecessary hospital visits and maximizing your comfort."
       ],
-      imagePlaceholder: "/src/assets/servicesimage1.png"
+      imagePlaceholder: "/src/assets/services/servicesimage1.png"
     },
     {
       id: "life-skills",
@@ -97,7 +107,7 @@ export const SERVICES_COPY = {
         "We pair you with supportive mentors who work alongside you—not just doing things for you, but teaching you how to do them yourself. This might include learning to cook nutritious meals, budgeting and managing finances, or navigating public transport systems.",
         "We break down complex tasks into manageable steps, celebrating your progress and adjusting our support as your skills and confidence grow."
       ],
-      imagePlaceholder: "/src/assets/servicesimage1.png"
+      imagePlaceholder: "/src/assets/services/servicesimage1.png"
     },
     {
       id: "support-coordination",
@@ -108,6 +118,6 @@ export const SERVICES_COPY = {
         "We help you understand your budget, connect you with the right local providers, and establish service agreements. If you hit a roadblock or a point of crisis, we step in to advocate on your behalf.",
         "As your plan comes to an end, we will help you gather the necessary reports and evidence to ensure you are thoroughly prepared for your plan review, aiming for the best possible outcomes for your future."
       ],
-      imagePlaceholder: "/src/assets/servicesimage1.png"
+      imagePlaceholder: "/src/assets/services/servicesimage1.png"
     }
   ];

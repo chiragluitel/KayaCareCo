@@ -4,10 +4,10 @@ import { CTA } from '../ui/CTAButton';
 interface ImageLeftTextRightProps {
   header: string;
   subheader: string;
-  highlights: string[];
-  ctaText: string;
-  ctaLink: string;
-  imageSrc: string;
+  imageSrc: string;  
+  highlights?: string[];
+  ctaText?: string;
+  ctaLink?: string;
 }
 
 export const ImageLeftTextOnRight = ({ header, subheader, highlights, ctaText, ctaLink, imageSrc }: ImageLeftTextRightProps) => {
@@ -27,17 +27,18 @@ export const ImageLeftTextOnRight = ({ header, subheader, highlights, ctaText, c
             </div>
 
             <ul className="space-y-4">
-              {highlights.map((item, idx) => (
+              {highlights?.map((item, idx) => (
                 <li key={idx} className="flex items-center gap-3 text-lg text-slate-800 font-bold">
                   <CheckCircle2 className="text-amber-600 flex-shrink-0" size={28} />
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
-
-            <div className="pt-4">
-              <CTA variant="primary" to={ctaLink}>{ctaText}</CTA>
-            </div>
+            {ctaLink && 
+              <div className="pt-4">
+                <CTA variant="primary" to={ctaLink}>{ctaText}</CTA>
+              </div>
+            }
           </div>
 
         </div>
