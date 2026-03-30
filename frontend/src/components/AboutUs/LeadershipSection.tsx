@@ -28,7 +28,7 @@ export const LeadershipSection = () => {
           ))}
         </div>
 
-        {/* 2. Business Cards Display: Side-by-Side */}
+        {/* 2. Business Cards Display: Side-by-Side  -> No need
         <div className="text-center mb-8">
           <h3 className="text-2xl font-extrabold text-slate-900">Direct Contact</h3>
         </div>
@@ -43,7 +43,7 @@ export const LeadershipSection = () => {
               />
             </div>
           
-        </div>
+        </div> */}
 
       </div>
     </section>

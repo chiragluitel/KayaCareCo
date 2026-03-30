@@ -2,7 +2,7 @@ export const LANDING_SERVICES_DATA = [
     { id: 1, img: "/landing/card3.png", title: "Nursing & Intensive Care", desc: "Professional clinical support for complex health needs. Specialized care delivered by Registered Nurses in the comfort and privacy of your home." },
     { id: 6, img: "/landing/card5.png", title: "Continence Management", desc: "Discreet and professional support designed to help you manage your health with confidence and dignity" },
     { id: 2, img: "/landing/card6.png", title: "Supported Mental Health Services", desc: "Tailored daily living assistance and community access for individuals living with conditions like Depression, PTSD, and Early Onset Dementia." },
-    { id: 3, img: "/landing/card4.png", title: "Therapeutic Support", desc: "Work with professionals to improve your health and well-being." },
+    { id: 3, img: "/landing/card4.png", title: "Short Term Accommodation", desc: "A safe, premium home away from home with 24/7 professional care." },
     { id: 4, img: "/landing/card1.png", title: "Personal Care", desc: "Respectful help with your morning and evening routines." },
     { id: 5, img: "/landing/card2.png", title: "Life Skills Training", desc: "Learn new skills to become more independent every day." },
   ];
@@ -76,6 +76,17 @@ export const SERVICES_COPY = {
         "Our team is specifically trained to support individuals living with conditions such as Schizophrenia, PTSD, Depression, and early-onset Dementia, providing a stable, trusting environment."
       ],
       imagePlaceholder: "/services/servicesimage3.png"
+    },
+    {
+      id: "short-term-accommodation",
+      title: "Short Term Accommodation",
+      description: "A premium home away from home with 24/7 professional support. We provide specialized respite care tailored to your clinical and lifestyle needs.",
+      detailedContent: [
+        "Our Short Term Accommodation (STA) and Respite services offer a refreshing change of scenery in a safe, supportive environment. Whether you need a weekend getaway or a few weeks of dedicated support, we ensure a seamless transition of care that maintains your routine and dignity.",
+        "Designed for participants with complex clinical needs, our STA stays are overseen by Registered Nurses. We provide 24-hour support, including medication management, personal care, and specialized nursing, ensuring that your health is prioritized while you enjoy your stay.",
+        "Beyond clinical care, we focus on enrichment and independence. Our team assists with nutritious meal preparation, community access, and engaging social activities, giving primary carers a well-deserved break while you achieve your personal goals in a comfortable, premium setting."
+      ],
+      imagePlaceholder: "/services/servicesimage7.png"
     },
     {
       id: "household-tasks",
