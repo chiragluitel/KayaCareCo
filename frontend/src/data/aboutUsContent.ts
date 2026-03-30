@@ -1,7 +1,7 @@
 export const ABOUT_BLOCKS = {
     mission: {
       header: "Empowering Your Independence",
-      subheader: "At Kaya Care Co, our mission is to provide dedicated, compassionate disability services across Melbourne. We empower individuals to live fulfilling, independent, and connected lives.",
+      subheader: "At Kaya Care Co, our mission is to provide dedicated, compassionate disability services across Australia. We empower individuals to live fulfilling, independent, and connected lives.",
       highlights: [
         "Tailored support plans designed around you",
         "Promoting absolute dignity and respect",
@@ -21,7 +21,7 @@ export const ABOUT_BLOCKS = {
       ],
       ctaText: "Make a Referral",
       ctaLink: "/referrals",
-      imageSrc: "/aboutus/img1.png"
+      imageSrc: "/aboutus/img2.png"
     },
     values: {
       header: "Values That Drive Us",
@@ -33,7 +33,7 @@ export const ABOUT_BLOCKS = {
       ],
       ctaText: "Contact Our Team",
       ctaLink: "/contact",
-      imageSrc: "/aboutus/img1.png"
+      imageSrc: "/aboutus/img3.png"
     },
     community: {
       header: "Building a Stronger Community",
@@ -45,7 +45,7 @@ export const ABOUT_BLOCKS = {
       ],
       ctaText: "Join Our Community",
       ctaLink: "/contact",
-      imageSrc: "/aboutus/img1.png" 
+      imageSrc: "/aboutus/img4.png" 
     }
   };
 

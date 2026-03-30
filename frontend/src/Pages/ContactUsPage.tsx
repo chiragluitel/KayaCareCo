@@ -26,7 +26,7 @@ export const ContactUsPage = () => {
             <div className="flex flex-col gap-8">
               <div>
                 <h2 className="text-3xl font-extrabold text-slate-900 mb-4">Visit Our Office</h2>
-                <p className="text-slate-600 font-medium">We are based in Craigieburn, Victoria, and service participants across Melbourne.</p>
+                <p className="text-slate-600 font-medium">We are based in Craigieburn, Victoria, and service participants across Australia.</p>
               </div>
               <LocationMap />
             </div>

@@ -9,7 +9,7 @@ export const LeadershipSection = () => {
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">Meet Our Directors</h2>
           <p className="text-lg text-slate-700 font-medium">
-            Led by experienced professionals dedicated to elevating the standard of NDIS support across Melbourne.
+            Led by experienced professionals dedicated to elevating the standard of NDIS support across Australia.
           </p>
         </div>
 
@@ -33,16 +33,16 @@ export const LeadershipSection = () => {
           <h3 className="text-2xl font-extrabold text-slate-900">Direct Contact</h3>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {DIRECTORS_DATA.map((director) => (
-            <div key={`${director.id}-card`} className="rounded-xl overflow-hidden shadow-md border border-slate-200 bg-white hover:shadow-xl transition-shadow duration-300">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-8 max-w-5xl mx-auto">
+
+            <div key={`${DIRECTORS_DATA[1].id}-card`} className="rounded-xl overflow-hidden shadow-md border border-slate-200 bg-white hover:shadow-xl transition-shadow duration-300">
               <img 
-                src={director.cardSrc} 
-                alt={`${director.name}'s Business Card`} 
+                src={DIRECTORS_DATA[1].cardSrc} 
+                alt={`${DIRECTORS_DATA[1].name}'s Business Card`} 
                 className="w-full h-auto object-contain"
               />
             </div>
-          ))}
+          
         </div>
 
       </div>

@@ -64,7 +64,7 @@ export const SERVICES_COPY = {
         "We assist with the selection and sourcing of appropriate aids and equipment, ensuring you have the right tools to maintain your independence. Our team also provides education for you and your carers on skin integrity, hygiene, and routine management to prevent complications.",
         "Beyond clinical support, our goal is to empower you to engage fully in your community without worry. By providing personalized strategies and ongoing monitoring, we help you regain confidence and focus on the activities you love.",
       ],
-      imagePlaceholder: "/services/servicesimage1.png"
+      imagePlaceholder: "/services/servicesimage2.png"
     },
     {
       id: "mental-health",
@@ -75,18 +75,7 @@ export const SERVICES_COPY = {
         "We work collaboratively with you, your family, and your clinical team to establish positive daily routines, build emotional resilience, and actively participate in your community. Whether you need support managing anxiety in public spaces or help organizing your week, we are here.",
         "Our team is specifically trained to support individuals living with conditions such as Schizophrenia, PTSD, Depression, and early-onset Dementia, providing a stable, trusting environment."
       ],
-      imagePlaceholder: "/services/servicesimage1.png"
-    },
-    {
-      id: "in-home-support",
-      title: "In-Home Support & Personal Care",
-      description: "One-on-one support for daily tasks. Includes showering, dressing, mobility transfers, and accompanying you to appointments.",
-      detailedContent: [
-        "At Kaya Care Co, we believe that receiving support should never mean compromising on your dignity or independence. Our In-Home Support services are designed to help you maintain your daily routine safely and comfortably in your own home.",
-        "Our experienced and compassionate support workers can assist with morning and evening routines, personal hygiene (showering, grooming, and dressing), and safe mobility transfers. We tailor our approach to your specific preferences, ensuring you feel respected and heard at all times.",
-        "Beyond personal care, we can also accompany you to medical appointments, community events, or social outings, ensuring you have the reliable support you need to stay active and engaged."
-      ],
-      imagePlaceholder: "/services/servicesimage1.png" 
+      imagePlaceholder: "/services/servicesimage3.png"
     },
     {
       id: "household-tasks",
@@ -97,7 +86,18 @@ export const SERVICES_COPY = {
         "Our team provides reliable, thorough assistance with domestic duties including vacuuming, mopping, bathroom cleaning, laundry, and ironing. We can also help with meal preparation, ensuring you have nutritious and delicious food ready when you need it.",
         "Need a hand outside? We also offer basic yard maintenance to keep your outdoor spaces safe and accessible."
       ],
-      imagePlaceholder: "/services/servicesimage1.png"
+      imagePlaceholder: "/services/servicesimage5.png"
+    },
+    {
+      id: "in-home-support",
+      title: "In-Home Support & Personal Care",
+      description: "One-on-one support for daily tasks. Includes showering, dressing, mobility transfers, and accompanying you to appointments.",
+      detailedContent: [
+        "At Kaya Care Co, we believe that receiving support should never mean compromising on your dignity or independence. Our In-Home Support services are designed to help you maintain your daily routine safely and comfortably in your own home.",
+        "Our experienced and compassionate support workers can assist with morning and evening routines, personal hygiene (showering, grooming, and dressing), and safe mobility transfers. We tailor our approach to your specific preferences, ensuring you feel respected and heard at all times.",
+        "Beyond personal care, we can also accompany you to medical appointments, community events, or social outings, ensuring you have the reliable support you need to stay active and engaged."
+      ],
+      imagePlaceholder: "/services/servicesimage4.png" 
     },
     {
       id: "life-skills-training",
@@ -108,6 +108,6 @@ export const SERVICES_COPY = {
         "Our supportive team works alongside you to master essential tasks such as meal planning and cooking, basic household budgeting, and navigating the local community. Whether it's learning to use a new smartphone to stay connected with family or understanding how to manage a medication schedule, we move at your pace.",
         "By focusing on capacity building, we don't just complete tasks—we teach the skills behind them. This proactive approach helps reduce anxiety around daily living and fosters a sense of pride and autonomy in your own home and community."
       ],
-      imagePlaceholder: "/services/servicesimage1.png"
+      imagePlaceholder: "/services/servicesimage6.png"
     }
   ];
